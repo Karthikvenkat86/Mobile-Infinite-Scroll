@@ -1,4 +1,6 @@
 Mobile Web ListView for Bidirectional Infinite Scroll with Lazy loading 
+=====
+***
 
 Recently we were exploring infinite scroll listview that would support thousands of items without performance impact in terms of memory and processor speed for mobile browsers. This should be similar to the listview/tableview implementations on Android/iOS app frameworks. And the web app should be light-weight without using any heavy framework using components that just serve the purpose without bloated code.
 The technical requirements of listview that suits the purpose are:
@@ -11,9 +13,10 @@ When the list item is an image, thumbnail should be displayed
 There are several javascript frameworks(http://propertycross.com/) that were available but not many were matching the above criteria. Hence we had a choice between writing our own listview or finding a list view that fits our requirements.
 After filtering this frameworks we narrowed our focus to the javascript libraries which support listview with infinite scroll
 
-ifininty.js by AirBnb
-JQuery iScroll infinite
-RAD.js infinite scroll
+ifininty.js by AirBnb:
+JQuery iScroll infinite:
+RAD.js infinite scroll:
+
 
 Infinity.js was not suited for mobile as it was heavy both in terms of the framework dependency and memory.
 JQuery iScroll infinite was considered good. But on further analysis and usage we realized that the code is not customizable easily. Hence we had to abandon this approach.
